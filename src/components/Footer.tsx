@@ -10,8 +10,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <img 
-              src="/lovable-uploads/a242d3e4-8d70-4fc0-8cab-947043c42574.png" 
-              alt="HILL-Heizöl" 
+              src="/knobloch-logo.png" 
+              alt="Knobloch" 
               className="h-20"
             />
             <p className="text-gray-300 leading-relaxed">
