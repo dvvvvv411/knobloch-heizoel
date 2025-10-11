@@ -33,10 +33,10 @@ const CTAButton: React.FC<CTAButtonProps> = ({
   const baseClasses = "font-semibold transition-all duration-200 hover:scale-105 active:scale-95";
   
   const variantClasses = {
-    primary: "bg-hill-green hover:bg-hill-green-dark text-white shadow-medium hover:shadow-strong",
+    primary: "bg-knobloch-green hover:bg-knobloch-green-dark text-white shadow-medium hover:shadow-strong",
     secondary: "bg-accent-orange-500 hover:bg-accent-orange-600 text-white shadow-medium hover:shadow-strong",
-    outline: "border-2 border-hill-green text-hill-green hover:bg-hill-green hover:text-white",
-    ghost: "text-hill-green hover:bg-hill-gray"
+    outline: "border-2 border-knobloch-green text-knobloch-green hover:bg-knobloch-green hover:text-white",
+    ghost: "text-knobloch-green hover:bg-knobloch-gray"
   };
 
   const sizeClasses = {

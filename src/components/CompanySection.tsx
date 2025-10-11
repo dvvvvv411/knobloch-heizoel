@@ -35,7 +35,7 @@ const CompanySection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Über HILL-Heizöl
+            Über KNOBLOCH-Heizöl
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ihr zuverlässiger Partner für Heizöl in Deutschland seit über 20 Jahren. 
@@ -77,7 +77,7 @@ const CompanySection = () => {
                 <div className="h-96 w-full">
                   <img 
                     src="https://i.imgur.com/xPI8LoI.jpeg" 
-                    alt="HILL-Heizöl Unternehmen" 
+                    alt="KNOBLOCH-Heizöl Unternehmen" 
                     className="w-full h-full object-cover"
                   />
                 </div>

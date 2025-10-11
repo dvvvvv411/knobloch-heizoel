@@ -32,7 +32,7 @@ const Header = () => {
                 <ClickToCall variant="header" />
                 <div className="flex items-center space-x-2">
                   <Bell size={14} className="text-accent-orange-500" />
-                  <span>info@hill-heizoel.de</span>
+                  <span>info@knobloch-heizoel.de</span>
                 </div>
               </div>
               <div className="text-accent-orange-500 font-medium">

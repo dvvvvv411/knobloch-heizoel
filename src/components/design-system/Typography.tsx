@@ -16,10 +16,10 @@ const Typography: React.FC<TypographyProps> = ({
   color
 }) => {
   const colorClasses = {
-    primary: 'text-hill-text',
-    secondary: 'text-hill-text-light',
+    primary: 'text-knobloch-text',
+    secondary: 'text-knobloch-text-light',
     muted: 'text-gray-500',
-    success: 'text-hill-success'
+    success: 'text-knobloch-success'
   };
 
   const variants = {

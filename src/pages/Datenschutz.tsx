@@ -26,12 +26,12 @@ const Datenschutz = () => {
             </CardHeader>
             <CardContent>
               <div className="space-y-2">
-                <p className="font-semibold">HILL-Clear Projects GmbH</p>
-                <p>Rottmannstr. 22a</p>
-                <p>80333 München</p>
+                <p className="font-semibold">easy2heat GmbH</p>
+                <p>Gollierstraße 70/D</p>
+                <p>80339 München</p>
                 <p>Deutschland</p>
                 <p className="mt-4">
-                  <span className="font-semibold">E-Mail:</span> info@hill-heizoel.de<br />
+                  <span className="font-semibold">E-Mail:</span> info@knobloch-heizoel.de<br />
                   <span className="font-semibold">Telefon:</span> 089 244 189 180
                 </p>
               </div>
@@ -146,7 +146,7 @@ const Datenschutz = () => {
                 Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte kontaktieren Sie uns unter:
               </p>
               <div className="mt-3 space-y-1 text-gray-700 text-sm">
-                <p><span className="font-semibold">E-Mail:</span> info@hill-heizoel.de</p>
+                <p><span className="font-semibold">E-Mail:</span> info@knobloch-heizoel.de</p>
                 <p><span className="font-semibold">Telefon:</span> 089 244 189 180</p>
               </div>
             </CardContent>

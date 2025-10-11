@@ -20,7 +20,7 @@ export default {
 		extend: {
 			colors: {
 				// Design System Farben
-				hill: {
+				knobloch: {
 					green: '#006b51',
 					'green-dark': '#005a44',
 					'green-light': '#007d5e',

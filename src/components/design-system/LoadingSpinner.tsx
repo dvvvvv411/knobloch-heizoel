@@ -21,7 +21,7 @@ const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({
   };
 
   const colorClasses = {
-    primary: 'border-hill-green border-t-transparent',
+    primary: 'border-knobloch-green border-t-transparent',
     white: 'border-white border-t-transparent',
     gray: 'border-gray-300 border-t-transparent'
   };

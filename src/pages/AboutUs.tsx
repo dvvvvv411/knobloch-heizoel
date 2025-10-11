@@ -80,7 +80,7 @@ const AboutUs = () => {
       <section className="bg-gradient-to-br from-primary-50 to-primary-100 py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Über HILL-Clear Projects GmbH
+            Über easy2heat GmbH
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-8">
             Seit über 20 Jahren Ihr zuverlässiger Partner für Premium-Heizöl in Deutschland. 
@@ -93,9 +93,9 @@ const AboutUs = () => {
                 089 244 189 180
               </Button>
             </a>
-            <Button size="lg" variant="outline" className="border-primary-600 text-primary-600 hover:bg-primary-50">
+              <Button size="lg" variant="outline" className="border-primary-600 text-primary-600 hover:bg-primary-50">
               <Mail className="mr-2" size={20} />
-              info@hill-heizoel.de
+              info@knobloch-heizoel.de
             </Button>
           </div>
         </div>
@@ -142,12 +142,12 @@ const AboutUs = () => {
                 Unsere Geschichte
               </h2>
               <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
-                <p>
-                  Im Jahr 2003 wurde HILL-Clear Projects GmbH mit dem Ziel gegründet, 
-                  Kunden in Deutschland mit hochwertigem Heizöl zu fairen Preisen zu versorgen. 
-                  Was als kleines Familienunternehmen begann, hat sich zu einem der 
-                  führenden Heizöl-Anbieter in der Region entwickelt.
-                </p>
+              <p>
+                Im Jahr 2003 wurde easy2heat GmbH mit dem Ziel gegründet, 
+                Kunden in Deutschland mit hochwertigem Heizöl zu fairen Preisen zu versorgen. 
+                Was als kleines Familienunternehmen begann, hat sich zu einem der 
+                führenden Heizöl-Anbieter in der Region entwickelt.
+              </p>
                 <p>
                   Unser Erfolg basiert auf drei Säulen: erstklassige Produktqualität, 
                   zuverlässiger Service und transparente Preisgestaltung. Wir beliefern 
@@ -165,8 +165,8 @@ const AboutUs = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary-500 to-primary-700 rounded-2xl p-12 text-white text-center shadow-2xl">
                 <Building size={80} className="mx-auto mb-6 text-primary-100" />
-                <h3 className="text-3xl font-bold mb-4">HILL-Clear</h3>
-                <p className="text-xl text-primary-100 mb-6">Projects GmbH</p>
+                <h3 className="text-3xl font-bold mb-4">KNOBLOCH</h3>
+                <p className="text-xl text-primary-100 mb-6">easy2heat GmbH</p>
                 <div className="space-y-2 text-primary-100">
                   <p>Seit 2003 in München</p>
                   <p>Bayern's Heizöl-Experte</p>
@@ -182,7 +182,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Warum Heizöl von HILL-Clear wählen?
+              Warum Heizöl von KNOBLOCH wählen?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Wir bieten Ihnen mehr als nur Heizöl - wir bieten Ihnen Sicherheit, 
@@ -324,7 +324,7 @@ const AboutUs = () => {
               <CardContent className="p-12">
                 <div className="text-center mb-8">
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                    HILL-Clear Projects GmbH
+                    easy2heat GmbH
                   </h2>
                   <p className="text-xl text-gray-600">
                     Ihr Partner für Heizöl in Deutschland
@@ -335,9 +335,9 @@ const AboutUs = () => {
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">Anschrift</h3>
                     <div className="space-y-2 text-gray-700">
-                      <p>HILL-Clear Projects GmbH</p>
-                      <p>Rottmannstr. 22a</p>
-                      <p>80333 München</p>
+                      <p>easy2heat GmbH</p>
+                      <p>Gollierstraße 70/D</p>
+                      <p>80339 München</p>
                       <p>Deutschland</p>
                     </div>
                   </div>
@@ -351,7 +351,7 @@ const AboutUs = () => {
                       </div>
                       <div className="flex items-center">
                         <Mail className="text-primary-600 mr-3" size={20} />
-                        <span className="text-gray-700">info@hill-heizoel.de</span>
+                        <span className="text-gray-700">info@knobloch-heizoel.de</span>
                       </div>
                     </div>
                   </div>
@@ -361,7 +361,7 @@ const AboutUs = () => {
                     <div className="space-y-2 text-gray-700">
                       <p>HRB 267211</p>
                       <p>Amtsgericht München</p>
-                      <p>USt-IdNr.: DE970703271</p>
+                      <p>USt-IdNr.: DE924506774</p>
                     </div>
                   </div>
 

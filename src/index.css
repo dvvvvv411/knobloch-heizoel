@@ -47,14 +47,14 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     /* Design System Custom Properties */
-    --hill-green: #006b51;
-    --hill-green-dark: #005a44;
-    --hill-green-light: #007d5e;
-    --hill-white: #ffffff;
-    --hill-gray: #f8f9fa;
-    --hill-text: #212529;
-    --hill-text-light: #6c757d;
-    --hill-success: #28a745;
+    --knobloch-green: #006b51;
+    --knobloch-green-dark: #005a44;
+    --knobloch-green-light: #007d5e;
+    --knobloch-white: #ffffff;
+    --knobloch-gray: #f8f9fa;
+    --knobloch-text: #212529;
+    --knobloch-text-light: #6c757d;
+    --knobloch-success: #28a745;
   }
 
   .dark {
@@ -109,7 +109,7 @@
 
   /* Focus styles - Mobile optimized */
   *:focus-visible {
-    @apply outline-none ring-2 ring-hill-green ring-offset-2;
+    @apply outline-none ring-2 ring-knobloch-green ring-offset-2;
   }
 
   /* Mobile touch targets */
@@ -156,7 +156,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, var(--hill-green), var(--hill-green-light));
+    background: linear-gradient(135deg, var(--knobloch-green), var(--knobloch-green-light));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

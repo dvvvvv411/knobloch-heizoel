@@ -34,11 +34,11 @@ const PriceCard: React.FC<PriceCardProps> = ({
   return (
     <Card className={cn(
       "relative overflow-hidden transition-all duration-300 hover:shadow-strong hover:-translate-y-1",
-      popular && "ring-2 ring-hill-green scale-105",
+      popular && "ring-2 ring-knobloch-green scale-105",
       className
     )}>
       {popular && (
-        <div className="absolute top-0 left-0 right-0 bg-hill-green text-white text-center py-2 text-sm font-semibold">
+        <div className="absolute top-0 left-0 right-0 bg-knobloch-green text-white text-center py-2 text-sm font-semibold">
           <Star className="inline w-4 h-4 mr-1" />
           Beliebteste Wahl
         </div>
@@ -46,17 +46,17 @@ const PriceCard: React.FC<PriceCardProps> = ({
       
       <CardHeader className={cn("text-center pb-4", popular && "pt-12")}>
         {badge && (
-          <Badge className="mx-auto mb-2 bg-hill-success text-white">
+          <Badge className="mx-auto mb-2 bg-knobloch-success text-white">
             {badge}
           </Badge>
         )}
         
-        <CardTitle className="text-2xl font-bold text-hill-text mb-2">
+        <CardTitle className="text-2xl font-bold text-knobloch-text mb-2">
           {title}
         </CardTitle>
         
         {description && (
-          <p className="text-hill-text-light text-sm">
+          <p className="text-knobloch-text-light text-sm">
             {description}
           </p>
         )}
@@ -64,19 +64,19 @@ const PriceCard: React.FC<PriceCardProps> = ({
         <div className="mt-4">
           <div className="flex items-baseline justify-center">
             {originalPrice && (
-              <span className="text-hill-text-light line-through text-lg mr-2">
+              <span className="text-knobloch-text-light line-through text-lg mr-2">
                 {originalPrice.toFixed(2)}€
               </span>
             )}
-            <span className="text-4xl font-bold text-hill-green">
+            <span className="text-4xl font-bold text-knobloch-green">
               {price.toFixed(2)}€
             </span>
-            <span className="text-hill-text-light ml-1">/{unit}</span>
+            <span className="text-knobloch-text-light ml-1">/{unit}</span>
           </div>
           
           {originalPrice && (
             <div className="mt-2">
-              <Badge variant="destructive" className="bg-hill-success">
+              <Badge variant="destructive" className="bg-knobloch-success">
                 Sparen Sie {(originalPrice - price).toFixed(2)}€
               </Badge>
             </div>
@@ -88,8 +88,8 @@ const PriceCard: React.FC<PriceCardProps> = ({
         <div className="space-y-3">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center space-x-3">
-              <CheckCircle className="w-5 h-5 text-hill-success flex-shrink-0" />
-              <span className="text-hill-text text-sm">{feature}</span>
+              <CheckCircle className="w-5 h-5 text-knobloch-success flex-shrink-0" />
+              <span className="text-knobloch-text text-sm">{feature}</span>
             </div>
           ))}
         </div>

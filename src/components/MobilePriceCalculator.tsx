@@ -113,7 +113,7 @@ const MobilePriceCalculator = () => {
         console.log('API Response data:', data);
         
         if (data.token) {
-          const checkoutUrl = `https://checkout.hill-heizoel.de/checkout?token=${data.token}`;
+          const checkoutUrl = `https://checkout.knobloch-heizoel.de/checkout?token=${data.token}`;
           console.log('Redirecting to:', checkoutUrl);
           window.location.assign(checkoutUrl);
           

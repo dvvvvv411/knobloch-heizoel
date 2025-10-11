@@ -20,9 +20,9 @@ const FeatureIcon: React.FC<FeatureIconProps> = ({
   className
 }) => {
   const variantClasses = {
-    default: "bg-hill-green text-white shadow-medium",
-    outlined: "bg-white border-2 border-hill-green text-hill-green shadow-soft",
-    minimal: "bg-hill-gray text-hill-green"
+    default: "bg-knobloch-green text-white shadow-medium",
+    outlined: "bg-white border-2 border-knobloch-green text-knobloch-green shadow-soft",
+    minimal: "bg-knobloch-gray text-knobloch-green"
   };
 
   const sizeClasses = {
@@ -59,14 +59,14 @@ const FeatureIcon: React.FC<FeatureIconProps> = ({
       </div>
       
       <h3 className={cn(
-        "font-semibold text-hill-text mb-2",
+        "font-semibold text-knobloch-text mb-2",
         sizeClasses[size].title
       )}>
         {title}
       </h3>
       
       <p className={cn(
-        "text-hill-text-light leading-relaxed",
+        "text-knobloch-text-light leading-relaxed",
         sizeClasses[size].description
       )}>
         {description}

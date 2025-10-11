@@ -28,7 +28,7 @@ const Impressum = () => {
               <CardContent className="space-y-3">
                 <div>
                   <h3 className="font-semibold text-gray-900">Firma:</h3>
-                  <p className="text-gray-700">HILL-Clear Projects GmbH</p>
+                  <p className="text-gray-700">easy2heat GmbH</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Rechtsform:</h3>
@@ -44,7 +44,7 @@ const Impressum = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">USt-IdNr.:</h3>
-                  <p className="text-gray-700">DE970703271</p>
+                  <p className="text-gray-700">DE924506774</p>
                 </div>
               </CardContent>
             </Card>
@@ -62,9 +62,9 @@ const Impressum = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900">Anschrift:</h3>
                     <p className="text-gray-700">
-                      HILL-Clear Projects GmbH<br />
-                      Rottmannstr. 22a<br />
-                      80333 München<br />
+                      easy2heat GmbH<br />
+                      Gollierstraße 70/D<br />
+                      80339 München<br />
                       Deutschland
                     </p>
                   </div>
@@ -82,7 +82,7 @@ const Impressum = () => {
                   <Mail className="text-primary-600" size={20} />
                   <div>
                     <h3 className="font-semibold text-gray-900">E-Mail:</h3>
-                    <p className="text-gray-700">info@hill-heizoel.de</p>
+                    <p className="text-gray-700">info@knobloch-heizoel.de</p>
                   </div>
                 </div>
               </CardContent>
@@ -94,7 +94,7 @@ const Impressum = () => {
               <CardTitle>Geschäftsführung</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-700">Michael Hillmann</p>
+              <p className="text-gray-700">Marco Knobloch</p>
             </CardContent>
           </Card>
 
